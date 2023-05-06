@@ -11,7 +11,7 @@ class OctoprimeTire(Tire):
         
         tire_sensor_readings = self.tire_sensor_readings
         
-        if sum(tire_sensor_readings) >= 3:
+        if sum(tire_sensor_readings) >= 3.0:
             return True
         return False
 
